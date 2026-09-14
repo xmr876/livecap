@@ -1,0 +1,35 @@
+# ---- build output / packaged app (regenerate with packaging/build.ps1) ----
+dist/
+build/
+packaging/app.ico
+
+# ---- downloaded or generated assets (models.py / setup.ps1 fetch these) ----
+models/
+tools/
+testmodels/
+
+# ---- local runtime state ----
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+settings.json
+settings.json.bak
+livecap.log
+livecap_crash.log
+setup.log
+
+# ---- test material generated locally ----
+testdata/*.wav
+testdata/hls/
+testdata/*.jsonl
+testdata/*.bin
+testdata/*_err.txt
+testdata/edgeprofile/
+testdata/overlay_preview_2.png.bak
+
+# ---- editors / os ----
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
