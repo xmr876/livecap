@@ -158,12 +158,11 @@ livecap-cli.exe --no-overlay --log subs.jsonl
 > YouTube 直连会报 `Sign in to confirm you're not a bot`（这台机器还走了系统代理，IP 被标记）。
 > 用扩展导出 `cookies.txt` 后加 `--cookies cookies.txt`；或者干脆用 GUI 的抓声音模式，完全不用管这个。
 
-## 安装包（便于传播）
+## 安装包
 
 **现成安装包直接下载 → [Releases 页面](https://github.com/xmr876/livecap/releases)**（`livecap-setup-1.0.0.exe`，约 1.1GB）
 
-> 安装包体积超过 GitHub 仓库单文件上限（100MB），所以放在 Releases 里当附件（附件上限 2GB）；
-> Git LFS 免费额度只有 1GB/月，也放不下。想要绿色版（模型内置、拷走即用）就用下面的脚本自己构建。
+> 绿色版（模型内置、拷走即用）就用下面的脚本自己构建。
 
 自己构建：
 
@@ -277,10 +276,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File setup.ps1   rem venv + 依�
 .venv\Scripts\python.exe scripts\convert_mt_model.py            rem 重新转换翻译模型
 .venv\Scripts\python.exe scripts\test_mt.py                     rem 对比翻译质量/耗时
 ```
-## 下载
-
-详见https://github.com/xmr876/livecap/releases/tag/v1.0.0
-暂时仅支持win x86-64
 
 ## 致谢
 
