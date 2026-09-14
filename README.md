@@ -272,4 +272,4 @@ powershell -NoProfile -ExecutionPolicy Bypass -File setup.ps1   rem venv + 依�
 ```
 ## 致谢
 
-感谢我们的开发者没吃太多白饭的蓝色大肥鱼deepseek
+感谢我们的开发者——没吃太多白饭的蓝色大肥鱼deepseek
