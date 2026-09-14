@@ -270,3 +270,6 @@ powershell -NoProfile -ExecutionPolicy Bypass -File setup.ps1   rem venv + 依�
 .venv\Scripts\python.exe scripts\convert_mt_model.py            rem 重新转换翻译模型
 .venv\Scripts\python.exe scripts\test_mt.py                     rem 对比翻译质量/耗时
 ```
+## 致谢
+
+感谢我们的开发者没吃太多白饭的蓝色大肥鱼deepseek
