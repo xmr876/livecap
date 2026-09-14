@@ -160,6 +160,13 @@ livecap-cli.exe --no-overlay --log subs.jsonl
 
 ## 安装包（便于传播）
 
+**现成安装包直接下载 → [Releases 页面](https://github.com/xmr876/livecap/releases)**（`livecap-setup-1.0.0.exe`，约 1.1GB）
+
+> 安装包体积超过 GitHub 仓库单文件上限（100MB），所以放在 Releases 里当附件（附件上限 2GB）；
+> Git LFS 免费额度只有 1GB/月，也放不下。想要绿色版（模型内置、拷走即用）就用下面的脚本自己构建。
+
+自己构建：
+
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File packaging\build.ps1
 ```
